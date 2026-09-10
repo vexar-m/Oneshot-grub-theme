@@ -1,0 +1,40 @@
+# Общие параметры
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#0a0614"
+
+# Загрузочное меню слева по центру
++ boot_menu {
+    left = 8%
+    top = 35%
+    width = 380
+    height = 320
+    
+    # Шрифт
+    item_font = "Unifont Regular 16"
+    
+    # Цвета элементов (палитра OneShot)
+    item_color = "#7b6899"
+    selected_item_color = "#e5b8ff"
+    
+    # Отступы и интервалы
+    item_height = 36
+    item_padding = 8
+    item_spacing = 10
+    
+    # Иконки систем (если нужны - стили стандартные)
+    icon_width = 24
+    icon_height = 24
+}
+
+# Строка прогресса / таймер
++ progress_bar {
+    id = "__timeout__"
+    left = 8%
+    top = 70%
+    width = 300
+    height = 10
+    fg_color = "#9955cc"
+    bg_color = "#201335"
+    border_color = "#452968"
+}
